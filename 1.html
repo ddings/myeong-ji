@@ -1,0 +1,67 @@
+<html>
+<head>
+ <title>ddings</title>
+ <meta charset="utf-8">
+<style>
+ body{
+   margin:0;
+ }
+    a{
+    color:black;
+    text-decoration: none;
+ }
+  h1{
+    font-size:45px;
+    text-align: center;
+    border-bottom:1px solid gray;
+    margin:0;
+    padding:20px;
+ }
+    ol{
+    border-right:1px solid gray;
+    width:100px;
+    margin:0;
+    padding:20px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #grid ol{
+    padding-left: 33px;
+  }
+  #grid #article{
+    padding-left: 25px;
+  }
+  @media(max-width:800px){
+    #grid{
+      display: block;
+    }
+    ol{
+      border-right:none;
+    }
+    hl{
+     border-bottom:none;
+   }
+  }
+  </style>
+</head>
+<body>
+<h1><a href="https://www.facebook.com/profile.php?id=100010477452962">소개</a></h1>
+<div id="grid">
+<ol>
+<li><a href="https://www.hallym.ac.kr/">한림대학교</a></li>
+<li><a href="https://www.hallym.ac.kr/hallym_univ/sub01/cP3/sCP6.html" id="active">광고홍보학과</a></li>
+<li><a href="https://www.instagram.com/ddings_2/" >최명지</a></li>
+</ol>
+<div id="article">
+  <h2>광고홍보학과</h2>
+  <p>
+  국내 대학에서 오직 하나뿐인 국제 공인 광고인 자격을 취득할 수 있는 광고홍보 교육 프로그램,
+  대학 교육 협의회가 평가한 전국 대학교 광고홍보분야 최우수 프로그램 및 전공교육 선진화 모델,
+  한림대학교 광고홍보학과 입니다.
+  </p>
+</div>
+</div>
+</body>
+</html>
